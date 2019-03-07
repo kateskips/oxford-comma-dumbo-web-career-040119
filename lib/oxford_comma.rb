@@ -1,5 +1,6 @@
 require 'pry'
 def oxford_comma(array)
   array.first
-  array.insert(-2, "and").join(", ")
+  array.join(", ")
+  array.insert(-2, "and")
 end
